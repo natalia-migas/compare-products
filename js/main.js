@@ -47,7 +47,8 @@ function addingToCompare(el) {
     <tr>${Array.from(span).map(tableTemplate).join('')}<td><button type="button" class="btn remove">Remove</button></td></tr>
   `
   tableBody.insertAdjacentHTML('beforeend', html_to_inject);
-  el.target.removeEventListener('click', addingToCompare);   
+  //el.target.removeEventListener('click', addingToCompare);
+  el.target.setAttribute('disabled', 'true');
 }
 
 const load = function() {
@@ -56,7 +57,7 @@ const load = function() {
   const table = document.querySelector('.compare-table');
   const tableBody = document.querySelector('.tbody');
   arrayBtns.forEach((btns) => {
-    btns.addEventListener('click', addingToCompare);
+    btns.addEventListener('click', addingToCompare);    
   });  
   function deleteItem(device) {
     device.parentNode.removeChild(device);
@@ -73,7 +74,8 @@ const load = function() {
     arrayBtns.forEach((btns) => {
       const nameFromList = btns.parentElement.parentElement.querySelector('.name .data').textContent;
       if(nameFromTable === nameFromList) {
-        btns.addEventListener('click', addingToCompare);
+        //btns.addEventListener('click', addingToCompare);
+        btns.removeAttribute('disabled');
       }
     });
   });

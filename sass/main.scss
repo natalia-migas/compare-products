@@ -87,6 +87,10 @@ input[type=submit] {
   @media (max-width: 1199px) {
     font-size: 1rem;
   }
+  &:disabled {
+    background-color: #adadad;
+    cursor: not-allowed;
+  }
 }
 
 .device-wrapper {

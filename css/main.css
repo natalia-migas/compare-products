@@ -95,6 +95,9 @@ input[type=submit] {
   @media (max-width: 1199px) {
     .btn {
       font-size: 1rem; } }
+  .btn:disabled {
+    background-color: #adadad;
+    cursor: not-allowed; }
 
 .device-wrapper {
   position: relative;
