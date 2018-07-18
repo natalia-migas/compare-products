@@ -1,0 +1,55 @@
+[{
+  "name": "Xiaomi Redmi Note 5",
+  "cost": "137€",
+  "weight": "180 g",
+  "size": "75.4 mm x 158.5 mm x 8.1 mm",
+  "colors": ["black", "cyan", "gold", "pink"],
+  "ram": "3 GB",
+  "antutu": "116.663",
+  "picture": "https://d2giyh01gjb6fi.cloudfront.net/phone_front/0002/27/thumb_126184_phone_front_big.jpeg"
+}, {
+  "name": "Xiaomi Mi8",
+  "cost": "382€",
+  "weight": "175 g",
+  "size": "74.8 mm x 154.9 mm x 7.6 mm",
+  "colors": ["black", "blue", "gold", "white"],
+  "ram": "6 GB",
+  "antutu": "271.164",
+  "picture": "https://d2giyh01gjb6fi.cloudfront.net/phone_front/0002/43/thumb_142438_phone_front_big.jpeg"
+}, {
+  "name": "Xiaomi Mi8 SE",
+  "cost": "252€",
+  "weight": "164 g",
+  "size": "73.1 mm x 147.3 mm x 7.5 mm",
+  "colors": ["black", "blue", "gold", "red"],
+  "ram": "4 GB",
+  "antutu": "174.333",
+  "picture": "https://d2giyh01gjb6fi.cloudfront.net/phone_front/0002/43/thumb_142464_phone_front_big.jpeg"
+}, {
+  "name": "Xiaomi Mi Mix 2s",
+  "cost": "398€",
+  "weight": "189 g",
+  "size": "74.9 mm x 150.8 mm x 8.1 mm",
+  "colors": ["black", "white"],
+  "ram": "6 GB",
+  "antutu": "277.178",
+  "picture": "https://d2giyh01gjb6fi.cloudfront.net/phone_front/0002/34/thumb_133010_phone_front_big.jpeg"
+}, {
+  "name": "Xiaomi Mi A1",
+  "cost": "143€",
+  "weight": "165 g",
+  "size": "75.8 mm x 155.4 mm x 7.3 mm",
+  "colors": ["black", "gold", "pink"],
+  "ram": "4 GB",
+  "antutu": "78.150",
+  "picture": "https://d2giyh01gjb6fi.cloudfront.net/phone_front/0001/86/thumb_85855_phone_front_big.jpeg"
+}, {
+  "name": "Xiaomi Redmi 6 Pro",
+  "cost": "133€",
+  "weight": "178 g",
+  "size": "71.7 mm x 149.3 mm x 8.8 mm",
+  "colors": ["black", "blue", "gold", "red", "pink"],
+  "ram": "3 GB",
+  "antutu": "89.000",
+  "picture": "https://d2giyh01gjb6fi.cloudfront.net/phone_front/0002/46/thumb_145766_phone_front_big.png"
+}]
